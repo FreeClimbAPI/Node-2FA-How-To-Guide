@@ -1,0 +1,14 @@
+<p> Verification code sent</p>
+<p>Please enter the code here:</p>
+<form method="post" action="verify-number">
+    <input type="hidden" name="number" value="{{number}}" />
+    <input type="text" name="code" />
+    <input type="submit" value="Check code" />
+</form>
+{{#if error}}
+    <p>{{error}}</p>
+    <form method="post" action="send-verification">
+        <input type="hidden" name="number" value="{{number}}"/>
+        <input type="submit" value="re-send code"/>
+    </form>
+{{/if}}

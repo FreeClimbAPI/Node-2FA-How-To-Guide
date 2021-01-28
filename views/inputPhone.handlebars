@@ -1,0 +1,9 @@
+<p>Please enter your phone number in E.164 format (e.g. +1234567891)</p>
+<form method="post" action="/send-verification">
+    <input type="tel" name="number" />
+    <input type="submit" value="Send code" />
+</form>
+
+{{#if error}}
+    <p>{{error}}</p>
+{{/if}}
