@@ -1,22 +1,29 @@
 language: node_js
 
 os:
-  - osx
-  - windows
-  - linux
+    - osx
+    - windows
+    - linux
 
 node_js:
-  - 12
-  - 14
-  - node
+    - 12
+    - 14
+    - node
+
+env:
+    global:
+        - PORT="3000"
+        - ACCOUNT_ID="N/A"
+        - AUTH_TOKEN="N/A"
+        - FC_PHONE_NUMBER="N/A"
 
 jobs:
-  include:
-    - stage: lint
-      script: yarn lint
-    - stage: test
-      script: PORT="3000" ACCOUNT_ID="N/A" AUTH_TOKEN="N/A" FC_PHONE_NUMBER="N/A" yarn test
+    include:
+        - stage: lint
+          script: yarn lint
+        - stage: test
+          script: yarn test
 
 stages:
-  - lint
-  - test
+    - lint
+    - test
