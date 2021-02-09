@@ -23,7 +23,7 @@
   "scripts": {
     "test": "jest",
     "test:cov": "jest --coverage && cat ./coverage/lcov.info | coveralls",
-    "start": "DEBUG=express:* node --http-parser=legacy .",
+    "start": "DEBUG=express:* node .",
     "format": "prettier-standard --format",
     "lint": "prettier-standard --format --check"
   },
