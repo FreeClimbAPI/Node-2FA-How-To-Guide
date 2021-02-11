@@ -34,7 +34,7 @@ To get started using a FreeClimb account, follow the instructions [here](https:/
     | ACCOUNT_ID      | Account ID which can be found under [API Keys](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard.                                                                                                            |
     | AUTH_TOKEN      | Authentication token which can be found under [API Keys](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard                                                                                                  |
     | FC_PHONE_NUMBER | A [configured FreeClimb Number](https://www.freeclimb.com/dashboard/portal/numbers) that will send verification codes. To learn more, go [here](https://docs.freeclimb.com/docs/getting-and-configuring-a-freeclimb-number). |
-    | PORT_NUMBER | Specifies the port on which the app will run (e.g. PORT_NUMBER=3000 means you would direct your browser to http://localhost:3000). | 
+    | PORT | Specifies the port on which the app will run (e.g. PORT=3000 means you would direct your browser to http://localhost:3000). | 
 
 ## Running the Tutorial
 
