@@ -6,7 +6,7 @@
 [![Build Status](https://travis-ci.com/FreeClimbAPI/Node-2FA-Tutorial.svg?branch=master)](https://travis-ci.com/FreeClimbAPI/Node-2FA-Tutorial)
 [![Coverage Status](https://coveralls.io/repos/github/FreeClimbAPI/Node-2FA-Tutorial/badge.svg?branch=master)](https://coveralls.io/github/FreeClimbAPI/Node-2FA-Tutorial?branch=master)
 
-This project serves as a guide to help you build an application with FreeClimb. View this tutorial on (tutorial coming soon).  
+This project serves as a guide to help you build a 2FA (Two-Factor Authentication) application with FreeClimb. View this tutorial [here](https://docs.freeclimb.com/docs/two-factor-authentication-tutorial).  
 Specifically, the project will:
 
 -   Get a phone number from the user
@@ -31,9 +31,10 @@ To get started using a FreeClimb account, follow the instructions [here](https:/
 
     | ENV VARIABLE    | DESCRIPTION                                                                                                                                                                                                                               |
     | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | ACCOUNT_ID      | Account ID which can be found under [API Keys](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard                                                                                                            |
-    | AUTH_TOKEN      | Authentication Token which can be found under [API Keys](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard                                                                                                  |
-    | FC_PHONE_NUMBER | [FreeClimb Phone number](https://www.freeclimb.com/dashboard/portal/numbers) being used to send verification codes. To learn more, go [here](https://docs.freeclimb.com/docs/getting-started-with-freeclimb#section-2-get-a-phone-number) |
+    | ACCOUNT_ID      | Account ID which can be found under [API Keys](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard.                                                                                                            |
+    | AUTH_TOKEN      | Authentication token which can be found under [API Keys](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard                                                                                                  |
+    | FC_PHONE_NUMBER | A [configured FreeClimb Number](https://www.freeclimb.com/dashboard/portal/numbers) that will send verification codes. To learn more, go [here](https://docs.freeclimb.com/docs/getting-and-configuring-a-freeclimb-number). |
+    | PORT | Specifies the port on which the app will run (e.g. PORT=3000 means you would direct your browser to http://localhost:3000). | 
 
 ## Running the Tutorial
 
