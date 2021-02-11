@@ -1,3 +1,4 @@
 *.handlebars
 *.yaml
 *.yaml.gotmpl
+README.md
