@@ -6,7 +6,10 @@
 [![Build Status](https://travis-ci.com/FreeClimbAPI/Node-2FA-Tutorial.svg?branch=master)](https://travis-ci.com/FreeClimbAPI/Node-2FA-Tutorial)
 [![Coverage Status](https://coveralls.io/repos/github/FreeClimbAPI/Node-2FA-Tutorial/badge.svg?branch=master)](https://coveralls.io/github/FreeClimbAPI/Node-2FA-Tutorial?branch=master)
 
-This project serves as a guide to help you build a 2FA (Two-Factor Authentication) application with FreeClimb. View this tutorial [here](https://docs.freeclimb.com/docs/two-factor-authentication-tutorial).  
+This project serves as a guide to help you build a 2FA (Two-Factor Authentication) application with FreeClimb. 
+
+**View the accompanying 2FA Tutorial [here](https://docs.freeclimb.com/docs/two-factor-authentication-tutorial).**  
+
 Specifically, the project will:
 
 -   Get a phone number from the user
@@ -15,9 +18,20 @@ Specifically, the project will:
 -   Expire the verification code after a set amount of time
 -   Verify the code
 
-## Setting up your new app within your FreeClimb account
+## Requirements
 
-To get started using a FreeClimb account, follow the instructions [here](https://docs.freeclimb.com/docs/getting-started-with-freeclimb).
+A [FreeClimb account](https://www.freeclimb.com/dashboard/signup/)
+
+A [registered application](https://docs.freeclimb.com/docs/registering-and-configuring-an-application#register-an-app) with a named alias
+
+A [configured FreeClimb number](https://docs.freeclimb.com/docs/getting-and-configuring-a-freeclimb-number) assigned to your application
+
+Tools:
+- [Node.js](https://nodejs.org/en/download/)
+- [Yarn](https://yarnpkg.com/en/)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+
+Trial accounts: a [verified number](https://docs.freeclimb.com/docs/using-your-trial-account#verifying-outbound-numbers)
 
 ## Setting up the Tutorial
 
