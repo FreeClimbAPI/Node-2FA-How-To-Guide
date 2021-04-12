@@ -46,8 +46,8 @@ Tools:
 
     | ENV VARIABLE    | DESCRIPTION                                                                                                                                                                                                                               |
     | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | ACCOUNT_ID      | Account ID which can be found under [API Keys](https://www.freeclimb.com/dashboard/portal/account/authentication) in dashboard.                                                                                                            |
-    | AUTH_TOKEN      | Authentication token which can be found under [API Keys](https://www.freeclimb.com/dashboard/portal/account/authentication) in dashboard                                                                                                  |
+    | ACCOUNT_ID      | Account ID which can be found under [API credentials](https://www.freeclimb.com/dashboard/portal/account/authentication) in dashboard.                                                                                                            |
+    | API_KEY      | Authentication token which can be found under [API credentials](https://www.freeclimb.com/dashboard/portal/account/authentication) in dashboard                                                                                                  |
     | FC_PHONE_NUMBER | A [configured FreeClimb Number](https://www.freeclimb.com/dashboard/portal/numbers) that will send verification codes. To learn more, go [here](https://docs.freeclimb.com/docs/getting-and-configuring-a-freeclimb-number). |
     | PORT | Specifies the port on which the app will run (e.g. PORT=3000 means you would direct your browser to http://localhost:3000). | 
 
