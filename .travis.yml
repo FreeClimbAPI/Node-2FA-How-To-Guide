@@ -17,7 +17,7 @@ env:
     global:
         - PORT="3000"
         - ACCOUNT_ID="N/A"
-        - AUTH_TOKEN="N/A"
+        - API_KEY="N/A"
         - FC_PHONE_NUMBER="N/A"
 
 jobs:
