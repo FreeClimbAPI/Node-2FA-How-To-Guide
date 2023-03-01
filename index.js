@@ -38,7 +38,6 @@ app.post('/send-verification', async (req, res) => {
             error:
                 'Something went wrong with your request please make sure you entered a valid phone number.' // re-render the inputPhone.handlebars template with this error message
         })
-        })
     }
 })
 
