@@ -16,8 +16,8 @@ Specifically, the project will:
 -   Expire the verification code after a set amount of time
 -   Verify the code
 
-## Tutorial
-We offer a [Two-Factor Authentication (2FA) tutorial](https://docs.freeclimb.com/docs/two-factor-authentication-tutorial) for more detailed set-up instructions and explanation of how the code in this 2FA sample app works.
+## How-To Guide
+We offer a [Two-Factor Authentication (2FA) how-to guide](https://docs.freeclimb.com/docs/two-factor-authentication-tutorial) for more detailed set-up instructions and explanation of how the code in this 2FA sample app works.
 
 ## Requirements
 
