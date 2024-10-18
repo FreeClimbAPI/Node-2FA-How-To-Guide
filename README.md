@@ -42,7 +42,7 @@ Tools:
     yarn install
     ```
 
-1. Create a .env file and configure the following environment variables within it:
+2. Create a .env file and configure the following environment variables within it:
 
     | ENV VARIABLE    | DESCRIPTION                                                                                                                                                                                                                               |
     | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -53,9 +53,17 @@ Tools:
 
 ## Running the Sample App
 
-```bash
-yarn start
-```
+1. Start the app
+
+    ```bash
+    yarn start
+    ```
+
+2. Expose app port using ngrok (defaults to 3000)
+     ```bash
+    ngrok http 3000
+    ```
+
 
 ## Feedback & Issues
 If you would like to give the team feedback or you encounter a problem, please [contact support](https://www.freeclimb.com/support/) or [submit a ticket](https://freeclimb.com/dashboard/portal/support) in the dashboard.
