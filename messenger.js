@@ -1,4 +1,5 @@
 const freeClimbSDK = require("@freeclimb/sdk")
+require("dotenv").config()
 
 const accountId = process.env.ACCOUNT_ID
 const apiKey = process.env.API_KEY
