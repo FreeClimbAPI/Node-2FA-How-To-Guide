@@ -59,11 +59,5 @@ Tools:
     yarn start
     ```
 
-2. Expose app port using ngrok (defaults to 3000)
-     ```bash
-    ngrok http 3000
-    ```
-
-
 ## Feedback & Issues
 If you would like to give the team feedback or you encounter a problem, please [contact support](https://www.freeclimb.com/support/) or [submit a ticket](https://freeclimb.com/dashboard/portal/support) in the dashboard.
